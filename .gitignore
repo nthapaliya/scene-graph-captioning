@@ -1,0 +1,30 @@
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Dataset (large — download via download.bash)
+data/
+
+# Derived / cached files
+derived/
+runs/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Built notebook artifacts
+# *.html
+
+# Course-internal files
+RUBRIC.md
+TRACKING.md
+NOTES.md
+
+# OS
+.DS_Store
+Thumbs.db
